@@ -1,4 +1,6 @@
 (function(d3) {
+  "use strict";
+
   function fixDOMInconsistency() {
     NodeList.prototype.map = Array.prototype.map;
   }
